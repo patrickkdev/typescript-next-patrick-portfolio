@@ -28,7 +28,7 @@ const CollabSection = ({content}:{content:CollabWithMeModel}) => {
     }
 
   return (
-    <div style={{backgroundColor: ColorPallete.primaryColor, padding: "144px", display: "flex", alignItems:"center", justifyContent: "center", flexDirection:"column"}}>
+    <div style={{backgroundColor: ColorPallete.primaryColor, paddingTop: "144px", paddingBottom: "144px", paddingLeft: "24px", paddingRight: "24px",  display: "flex", alignItems:"center", justifyContent: "center", flexDirection:"column"}}>
         <h2 style={TitleStyle}>{content.title}</h2>
         <h3 style={SubtitleStyle}>{content.subtitle}</h3>
         <Button variant="contained" onClick={() => window.open(content.actionButtonLink, '_blank')} sx={ActionButtonStyle}>

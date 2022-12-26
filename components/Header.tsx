@@ -55,7 +55,8 @@ const Header = ({content}:{content: HeaderModel}) => {
     }
 
     const heroFootImg: CSSProperties = {
-        height: "350px"
+        maxHeight: "350px",
+        maxWidth: "100%"
     }
 
     return (
