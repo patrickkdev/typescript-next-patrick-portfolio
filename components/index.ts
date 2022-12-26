@@ -1,0 +1,7 @@
+export {default as Header} from './Header'
+export {default as Navbar} from './Navbar'
+export {default as Footer} from './Footer'
+export {default as AboutMeSection} from './Body/AboutMe'
+export {default as RecentWorkSection} from './Body/RecentWork'
+export {default as StartUpProjectsSection} from './Body/StartUpProjects'
+export {default as CollabSection} from './Body/Collab'

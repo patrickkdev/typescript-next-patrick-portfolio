@@ -1,0 +1,131 @@
+{
+    "navbarModel": {
+        "contactButton": "Get in touch",
+        "contactButtonLink": "https://wa.me/message/JQWZEC2SVMRGE1",
+        "resume": "Resume"
+    },
+    "headerModel": {
+        "title": "Hi, I'm Patrick",
+        "subtitle": "Welcome to my portfolio!"
+    },
+    "aboutMeModel": {
+        "title": "About me",
+        "subtitle": "I am a fullstack developer with a passion for building web, desktop and mobile applications.",
+        "subtitle2": " I have a good foundation in frontend technologies such as HTML, CSS, TypeScript and Dart and I also have experience with backend languages such as Python and SQL.",
+        "features": [
+            {
+                "title": "Technologies I use on the frontend",
+                "subtitle": "",
+                "technology": {
+                    "title": "Technologies I use",
+                    "technologies": ["React.js", "Next.js", "React Native", "Flutter"]
+                }
+            },
+            {
+                "title": "Technologies I use on the backend",
+                "subtitle": "",
+                "technology": {
+                    "title": "Technologies I use",
+                    "technologies": ["Flask", "FastAPI", "MySQL"]
+                }
+            }
+        ]
+    },
+    "recentWorkModel": {
+        "title": "My Recent Work",
+        "subtitle": "Here are a few projects I've worked on",
+        "recentWorks": [
+            {
+                "title": "Portfolio",
+                "subtitle": "I like to code things from scratch, and enjoy bringing ideas to life.",
+                "actionLink": "https://kimara.netlify.app",
+                "imageLink": "https://iili.io/Hxaqcle.png"
+            },
+            {
+                "title": "Delivery Website",
+                "subtitle": "I like to code things from scratch, and enjoy bringing ideas to life.",
+                "actionLink": "https://kimara.netlify.app",
+                "imageLink": "https://iili.io/Hxaqcle.png"
+            },
+            {
+                "title": "Product Website",
+                "subtitle": "I like to code things from scratch, and enjoy bringing ideas to life.",
+                "actionLink": "https://kimara.netlify.app",
+                "imageLink": "https://iili.io/Hxaqcle.png"
+            },
+            {
+                "title": "Calculadora Financeira",
+                "subtitle": "I like to code things from scratch, and enjoy bringing ideas to life.",
+                "actionLink": "https://kimara.netlify.app",
+                "imageLink": "https://iili.io/Hxaqcle.png"
+            },
+            {
+                "title": "Calculadora Financeira",
+                "subtitle": "I like to code things from scratch, and enjoy bringing ideas to life.",
+                "actionLink": "https://kimara.netlify.app",
+                "imageLink": "https://iili.io/Hxaqcle.png"
+            },
+            {
+                "title": "Robô Trader",
+                "subtitle": "I like to code things from scratch, and enjoy bringing ideas to life.",
+                "actionLink": "https://kimara.netlify.app",
+                "imageLink": "https://iili.io/Hxa2Wep.png"
+            }
+        ]
+    },
+    "startUpProjectsModel": {
+        "title": "Featured Projects",
+        "subtitle": "Here is some of my work.",
+        "projects": [
+            {
+                "imageUrl": "https://iili.io/HIpk8hX.png",
+                "title": "Online Store",
+                "subtitle": "This is a work in progress responsive online store built with Flutter! It provides a modern shopping experience with a user-friendly interface to make your online shopping experience easy and convenient. This website includes a search bar to help you quickly find the products you're looking for and a shopping cart feature where users can add items to their order and view the total cost. The website also has integration with the Mercado Pago API for secure and reliable payment processing. ",
+                "actionLink": "https://ecommerceuniversal.netlify.app"
+            },
+            {
+                "imageUrl": "https://iili.io/HIpkgBs.png",
+                "title": "Delivery Website",
+                "subtitle": "This is a responsive food delivery website made with Next.js connected to a backend with a MySQL database. It allows users to browse and order food items online. The website has a user-friendly interface with categories to help users find the food they are looking for. The website also has a shopping cart feature where users can add items to their order and view the total cost. The website also has integration with the Mercado Pago API for secure and reliable payment processing.",
+                "actionLink": "https://kimara.netlify.app"
+            },
+            {
+                "imageUrl": "https://iili.io/HIpvjne.png",
+                "title": "2Gain Website",
+                "subtitle": "This is a responsive website built with Next.js for showcasing digital products for binary options traders. The content on this website is being fetched from a backend built with Python and MySQL to provide our users with the most up-to-date information on it's products. On this website, you will find a variety of tools and resources to help you in the complex world of binary options trading. Whether you are a seasoned trader or just starting out, we have something for everyone.",
+                "actionLink": "https://2gain.netlify.app"
+            },
+            {
+                "imageUrl": "https://iili.io/Hxaqcle.png",
+                "title": "2Gain Financial Calculator",
+                "subtitle": "This is a paid app available for both Windows and Android devices, and is built using the React-Native JavaScript framework and C# programming language. The main purpose of this app is to help users manage their money effectively while trading binary options. It does this by recommending trading sizes based on the user's available balance and their specified risk tolerance. To get started, simply enter your available balance and specify your risk tolerance.",
+                "actionLink": "https://2gain.netlify.app/product/1"
+            },
+            {
+                "imageUrl": "https://iili.io/Hxa2Wep.png",
+                "title": "2Gain Trading Bot",
+                "subtitle": "This program is paid trading tool for Windows made with Python that analyzes the market and executes trades on the IQ Option platform. It features an algorithm that is designed to make profitable trades, even after a series of losses, by strategically managing the invested money in a way that allows it to turn a profit with just two consecutive winning trades. The program is intended to help traders make informed decisions and potentially increase their chances of success in the market.",
+                "actionLink": "https://2gain.netlify.app/product/3"
+            },
+            {
+                "imageUrl": "https://indicatorspot.com/wp-content/uploads/2022/08/Trend-Arrow-Indicator_1.png",
+                "title": "2Gain Signals",
+                "subtitle": "This is a paid Windows program made with the Flutter framework that uses Python to analyze the market with its own unique strategy and provide high accuracy signals for binary option traders. The program utilizes algorithms and data analysis techniques to analyze market trends and identify potential trading opportunities using its own proprietary strategy. It then provides signals to the user, indicating whether a particular trade is likely to be successful or not based on this strategy.",
+                "actionLink": "https://2gain.netlify.app/product/2"
+            }
+        ]
+    },
+    "collabWithMeModel": {
+        "title": "Interested in collaborating with me?",
+        "subtitle": "I’m always open to discussing product design work or partnership opportunities.",
+        "actionButtonText": "Start Conversation",
+        "actionButtonLink": "https://wa.me/message/JQWZEC2SVMRGE1"
+    },
+    "footerModel": {
+        "logoLink": "",
+        "title": "E-mail: patrick8q@gmail.com",
+        "subtitle": "WhatsApp: +55 31 9 9644 2788",
+        "actionButtonText": "Start Conversation",
+        "actionButtonLink": "https://google.com"
+    }
+}
