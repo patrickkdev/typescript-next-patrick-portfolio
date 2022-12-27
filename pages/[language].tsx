@@ -1,5 +1,5 @@
 import { CssBaseline } from '@mui/material'
-import { AboutMeSection, CollabSection, Footer, Header, Navbar, RecentWorkSection, FeaturedProjectsSection } from '../components'
+import { AboutMeSection, CollabSection, Footer, Header, Navbar, FeaturedProjectsSection } from '../components'
 import { ContentModel } from '../Content/Model'
 
 import {useRouter} from 'next/router'
@@ -27,7 +27,6 @@ export default function Home() {
         <Header content={HomePageContent.headerModel}/>
         <main>
             <AboutMeSection content={HomePageContent.aboutMeModel}/>
-            {/* <RecentWorkSection content={HomePageContent.recentWorkModel}/> */}
             <FeaturedProjectsSection content={HomePageContent.startUpProjectsModel}/>
             <CollabSection content={HomePageContent.collabWithMeModel}/>
         </main>
