@@ -1,22 +1,7 @@
-import { CssBaseline } from '@mui/material'
-import { AboutMeSection, CollabSection, Footer, RecentWorkSection, StartUpProjectsSection } from '../components'
-import { HomePageContent } from '../Content/StaticContent'
+import { useRouter } from 'next/navigation'
 
-export default function Home() {
-
-  return (
-    <>
-      <CssBaseline/>
-      <main>
-        <AboutMeSection content={HomePageContent.aboutMeModel}/>
-        {/* <RecentWorkSection content={HomePageContent.recentWorkModel}/> */}
-        <StartUpProjectsSection content={HomePageContent.startUpProjectsModel}/>
-        <CollabSection content={HomePageContent.collabWithMeModel}/>
-      </main>
-      
-      <footer>
-        <Footer content={HomePageContent.footerModel}/>
-      </footer>
-    </>
-  )
+export default function IndexHome() {
+  const router = useRouter()
+  if (typeof window === "undefined") return null;
+  router.replace("/pt-br")
 }

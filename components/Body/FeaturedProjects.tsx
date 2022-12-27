@@ -1,17 +1,14 @@
-
-import JavascriptIcon from '@mui/icons-material/Javascript'
-import CssIcon from '@mui/icons-material/Css'
 import { Button, Card, Container, Grid } from '@mui/material'
 import { SxProps } from '@mui/system'
 import React, {CSSProperties} from 'react'
 import { ColorPallete } from '../../utils/ColorPalette/ColorPalette'
 import { StartUpProjectsModel } from '../../Content/Model'
 
-const StartUpProjectsSection = ({content}:{content: StartUpProjectsModel}) => {
+const FeaturedProjectsSection = ({content}:{content: StartUpProjectsModel}) => {
     const headerStyle : CSSProperties = {
-        padding: "72px",
-        paddingTop: "96px",
-        paddingBottom: "188px",
+        padding: "12px",
+        paddingTop: "114px",
+        paddingBottom: "82px",
         display: "flex",
         justifyContent: "center",
         alignContent: "center",
@@ -21,12 +18,13 @@ const StartUpProjectsSection = ({content}:{content: StartUpProjectsModel}) => {
         textAlign: "center",
         marginBottom: "24px",
         fontWeight: "bold",
-        fontSize: "32px"
+        fontSize: "32px",
+        color: ColorPallete.darkColor
     }
 
     const featureSectionStyle: SxProps = {
         display: "flex",
-        marginTop: "-160px",
+        //marginTop: "-160px",
         flexDirection: "row",
     }
 
@@ -36,7 +34,7 @@ const StartUpProjectsSection = ({content}:{content: StartUpProjectsModel}) => {
         <div style={headerStyle}>
             <Container maxWidth="md">
                 <h1 style={headerTextStyle}>{content.title}</h1>
-                <h2 style={{...headerTextStyle, opacity: "0.9", fontWeight: 100, fontSize: "20px"}}>
+                <h2 style={{...headerTextStyle, opacity: "0.9", fontWeight: 400, fontSize: "20px"}}>
                     {content.subtitle}
                 </h2>
             </Container>
@@ -45,8 +43,8 @@ const StartUpProjectsSection = ({content}:{content: StartUpProjectsModel}) => {
                 <Grid container>
                    {content.projects.map(project => {return (
                         <Grid item key={content.projects.indexOf(project)} padding={"6px"} md={4} sm={6} xs={12}>
-                            <Card elevation={10} style = {{color: "white", padding: "18px", borderRadius: 15, overflow: "hidden", backgroundColor:ColorPallete.secondaryColor, display:"flex", flexDirection:"column", justifyContent:"space-between"}}>
-                                <img src={project.imageUrl} style={{marginBottom: "24px", borderRadius: 15}}/>
+                            <Card elevation={10} style = {{height: "100%", color: "white", padding: "18px", borderRadius: 15, overflow: "hidden", backgroundColor:ColorPallete.secondaryColor, display:"flex", flexDirection:"column", justifyContent:"space-between"}}>
+                                <img src={project.imageUrl} style={{width: "100%", height: "auto", marginBottom: "24px", borderRadius: 15}}/>
                                 <h4 style={{marginBottom: "24px"}}>{project.title}</h4>
                                 <h5 style={{marginBottom: "24px"}}>{project.subtitle}</h5>
                                 <Button variant="outlined" onClick={() => window.open(project.actionLink, '_blank')} color="inherit" sx={{ borderRadius: 15}}> {/*  > */}
@@ -61,4 +59,4 @@ const StartUpProjectsSection = ({content}:{content: StartUpProjectsModel}) => {
   )
 }
 
-export default StartUpProjectsSection
+export default FeaturedProjectsSection

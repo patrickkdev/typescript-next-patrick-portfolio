@@ -1,7 +1,7 @@
 
 import JavascriptIcon from '@mui/icons-material/Javascript'
 import CssIcon from '@mui/icons-material/Css'
-import { Container } from '@mui/material'
+import { Card, Container, Grid } from '@mui/material'
 import { SxProps } from '@mui/system'
 import React, {CSSProperties} from 'react'
 import { ColorPallete } from '../../utils/ColorPalette/ColorPalette'
@@ -11,8 +11,8 @@ import { AboutMeModel } from '../../Content/Model'
 const AboutMeSection = ({content}:{content:AboutMeModel}) => {
     const headerStyle : CSSProperties = {
         padding: "24px",
-        paddingTop: "122px",
-        paddingBottom: "144px",
+        paddingTop: "96px",
+        paddingBottom: "180px",
         backgroundColor: ColorPallete.secondaryColor,
         display: "flex",
         justifyContent: "center",
@@ -29,23 +29,24 @@ const AboutMeSection = ({content}:{content:AboutMeModel}) => {
     
     const featureSectionStyle: CSSProperties = {
         display: "flex",
-        marginTop: "-244px",
+        //padding: "24px",
+        marginTop: "-160px",
         borderRadius: "15px",
-        backgroundColor: ColorPallete.primaryColor,
-        flexDirection: "row",
-        border: "1px solid",
-        borderColor: ColorPallete.darkColor
     }
     
     const featureColumnItemStyle: CSSProperties = {
-        paddingTop: "45px",
-        paddingBottom: "45px",
-        paddingRight: "24px",
-        paddingLeft: "24px",
-        width: `calc(100%/${content.features.length})`,
-        alignItems:"center",
-        flexDirection:"column",
-        display:"flex",
+        border: "2px solid",
+        borderColor: ColorPallete.accentColor,
+        color: "white", 
+        padding: "18px", 
+        borderRadius: 15, 
+        overflow: "hidden", 
+        backgroundColor: ColorPallete.secondaryColor, 
+        display:"flex", 
+        flexDirection:"column", 
+        alignItems: "center",
+        justifyContent:"space-between",
+        height:"100%"
     }
     
     const featureColumnItemIconStyle: CSSProperties = {
@@ -80,32 +81,31 @@ const AboutMeSection = ({content}:{content:AboutMeModel}) => {
                 <h2 style={{...headerTextStyle, opacity: "0.9", fontWeight: 100, fontSize: "20px", marginBottom:"48px"}}>
                     {content.subtitle2}
                 </h2>
-                <div style={{display:"flex"}}>
-                <div style={featureColumnItemStyle}>
-                    <div style={featureColumnItemIconStyle}> <CssIcon style={{fontSize: "36px",}}/> </div>
-                    <h2 style={featureColumnItemH2Style}> {content.features[0].title} </h2>
-                    <h3 style={{...featureColumnItemH2Style, fontWeight: 100}}> {content.features[0].subtitle} </h3>
-
-                    {content.features[0].technology.technologies?.map(technology => {return(
-                        <h3 key={content.features[0].technology.technologies.indexOf(technology)} style={{...featureColumnItemH2Style, fontWeight: 100, margin: "0px"}}> {technology} </h3>    
-                    )})}
-                </div>
-                <div style={{width:"1px", backgroundColor:ColorPallete.primaryColor}}/>
-                <div style={featureColumnItemStyle}>
-                    <div style={featureColumnItemIconStyle}> <JavascriptIcon style={{fontSize: "36px",}}/> </div>
-                    <h2 style={featureColumnItemH2Style}> {content.features[1].title} </h2>
-                    <h3 style={{...featureColumnItemH2Style, fontWeight: 100}}> {content.features[1].subtitle} </h3>
-
-                    {content.features[1].technology.technologies?.map(technology => {return(
-                        <h3 key={content.features[1].technology.technologies.indexOf(technology)} style={{...featureColumnItemH2Style, fontWeight: 100, margin: "0px"}}> {technology} </h3>    
-                    )})}
-                </div>
-                    
-                </div>
             </Container>
         </div>
+        <Container maxWidth="lg">
+            <Grid container sx={featureSectionStyle}>
+                {content.features.map(feature => {return (
+                    <Grid item key={content.features.indexOf(feature)} padding={"6px"} sm={6} xs={12}>
+                        <Card elevation={10} style = {featureColumnItemStyle}>
+                            <div style={featureColumnItemIconStyle}> 
+                                {content.features.indexOf(feature) == 0 && <CssIcon style={{color: ColorPallete.darkColor, fontSize: "36px",}}/>}
+                                {content.features.indexOf(feature) == 1 && <JavascriptIcon style={{color: ColorPallete.darkColor, fontSize: "36px",}}/>}
+                             </div>
+                            <h2 style={featureColumnItemH2Style}> {feature.title} </h2>
+                            <h3 style={{...featureColumnItemH2Style, fontWeight: 400}}> {feature.subtitle} </h3>
+
+                            {feature.technology.technologies?.map(technology => {return(
+                                <h3 key={feature.technology.technologies.indexOf(technology)} style={{...featureColumnItemH2Style, fontWeight: 400, margin: "0px"}}> {technology} </h3>    
+                            )})}
+                            
+                        </Card>
+                    </Grid>
+                )})}
+            </Grid>
+        </Container>
         {/* <div style={{padding: "24px"}}>
-            <Container maxWidth="lg" sx={featureSectionStyle}>
+            <Container maxWidth="lg" >
                 
             </Container>
         </div> */}
