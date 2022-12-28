@@ -2,6 +2,8 @@ import React, { CSSProperties } from 'react'
 import { HeaderModel } from '../Content/Model'
 import { ColorPallete } from '../utils/ColorPalette/ColorPalette'
 
+import Link from "next/link"
+
 import hero_avatar from '../assets/images/hero_avatar.png'
 import hero_devices from '../assets/images/hero_devices.png'
 
@@ -18,7 +20,7 @@ const Header = ({content}:{content: HeaderModel}) => {
         backgroundColor: ColorPallete.primaryColor,
         flexDirection: "column",
         alignItems: "center",
-        paddingTop: "48px",
+        paddingTop: "16px",
         paddingBottom: "48px",
         paddingRight: "24px",
         paddingLeft: "24px",
@@ -61,17 +63,23 @@ const Header = ({content}:{content: HeaderModel}) => {
     console.log(hero_avatar.src)
 
     return (
-        <div style = {mainStyle}>
-            <div style={heroBody}>
-                <h1 style={heroBodyH1}> {content.title} </h1>
-                <h3 style={{...heroBodyH1, fontSize: "24px", fontWeight: 400, opacity: 0.7}}>{content.subtitle}</h3>
+        <>
+            <div style={{backgroundColor: ColorPallete.primaryColor, height: "32px", display: "flex", alignItems: "center", justifyContent: "center"}}>
+                <Link href="/pt-br"><img style={{width:"auto", objectFit: "initial", justifySelf:"center", height:"32px", marginRight: "6px"}} src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png"/></Link>
+                <Link href="/en-us"><img style={{width:"auto", objectFit: "initial", justifySelf:"center", height:"32px", marginLeft: "6px"}} src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png"/></Link>
+            </div>
+            <div style = {mainStyle}>
+                <div style={heroBody}>
+                    <h1 style={heroBodyH1}> {content.title} </h1>
+                    <h3 style={{...heroBodyH1, fontSize: "24px", fontWeight: 400, opacity: 0.7}}>{content.subtitle}</h3>
 
-                <img style={heroBodyImg} alt="missing hero_avatar.png" src={hero_avatar.src}/>
+                    <img style={heroBodyImg} alt="missing hero_avatar.png" src={hero_avatar.src}/>
+                </div>
+                <div style={heroFoot}>
+                    <img style={heroFootImg} alt="missing hero_devices.png" src={hero_devices.src}/>
+                </div>
             </div>
-            <div style={heroFoot}>
-                <img style={heroFootImg} alt="missing hero_devices.png" src={hero_devices.src}/>
-            </div>
-        </div>
+        </>
     )
 }
 
