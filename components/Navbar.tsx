@@ -21,46 +21,46 @@ const Navbar = ({content}:{content: NavbarModel}) => {
   }
   
   const containerStyle: SxProps = {
-    display:"flex", justifyContent:"space-between", flexWrap: "wrap", alignItems: "center"
+    display:"flex", justifyContent:"space-between"
   }
   
   const contactButtonStyle: SxProps = {
     backgroundColor: ColorPallete.secondaryColor, borderRadius: "25px", height: "40px", alignSelf:"center",
-    //marginX: "12px",
+    marginRight: "12px",
     '&:hover': {
       backgroundColor: ColorPallete.accentColor,
       color: "black",
-      paddingLeft: "30px",
-      paddingRight: "30px"
+      boxShadow: "0px 2px 10px grey"
     },
     transitionDuration: "0.4s",
-    transitionProperty: "padding, color, background-color"
+    transitionProperty: "color, background-color, box-shadow"
   }
   
   const curriculumButtonStyle: SxProps = {
     color: ColorPallete.secondaryColor, borderRadius: "25px", height: "40px", alignSelf:"center",
     marginX: "12px",
     '&:hover': {
-      backgroundColor: ColorPallete.accentColor,
-      color: "black",
-      paddingLeft: "30px",
-      paddingRight: "30px"
+      boxShadow: "0px 2px 10px grey"
     },
     transitionDuration: "0.4s",
-    transitionProperty: "padding, color, background-color"
+    transitionProperty: "box-shadow"
   }
 
   return (
     <div style={mainStyle}>
         <Container sx={containerStyle}>
-          <Link href="/">
+          <Link href="/" style={{overflow:"hidden", flexWrap:"wrap", flexDirection: "column"}}>
             <img style={{height: "50px ", margin: "12px"}} src={logo.src}/>
           </Link>
           <div style={{display:"flex", alignItems: "center"}}>
             <a href={content.contactButtonLink} target="_blank" rel="noopener noreferrer">
               <Button variant="contained" size='large' sx={contactButtonStyle}> {content.contactButton} </Button>
             </a>
-            <Button size='large' sx={curriculumButtonStyle}> {content.resume} </Button>
+            
+            <Link href = 'documents/Curriculo.pdf' target='_blank'>
+              <Button size='large' sx={curriculumButtonStyle}> {content.resume} </Button>
+            </Link> 
+
           </div>
         </Container>
     </div>

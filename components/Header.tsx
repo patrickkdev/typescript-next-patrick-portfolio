@@ -22,8 +22,8 @@ const Header = ({content}:{content: HeaderModel}) => {
         alignItems: "center",
         paddingTop: "16px",
         paddingBottom: "48px",
-        paddingRight: "24px",
-        paddingLeft: "24px",
+        paddingRight: "12px",
+        paddingLeft: "12px",
         width: "100%",
         color: "black",
         display: "flex",
@@ -49,15 +49,19 @@ const Header = ({content}:{content: HeaderModel}) => {
     }
 
     const heroBodyImg: CSSProperties = {
+        paddingLeft: "70px",
+        paddingRight: "70px",
         marginTop: "32px",
         marginBottom: "32px",
-        height: "230px",
-        width: "210px"
+        maxHeight: "230px",
+        maxWidth: "100%",
+        
     }
 
     const heroFootImg: CSSProperties = {
         maxHeight: "350px",
-        maxWidth: "100%"
+        maxWidth: "100%",
+        minWidth: "450px"
     }
     
     console.log(hero_avatar.src)

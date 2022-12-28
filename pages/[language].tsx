@@ -3,14 +3,13 @@ import { AboutMeSection, CollabSection, Footer, Header, Navbar, FeaturedProjects
 import { ContentModel } from '../Content/Model'
 
 import {useRouter} from 'next/router'
+import Head from 'next/head';
 
 export default function Home() {
 
     var HomePageContent: ContentModel = require('../Content/Languages/pt-br.json');
 
     const router = useRouter();
-    //const id = router.query.id? parseInt(router.query.id as string, 10) : parseInt("0");
-    console.log(router.query.language);
 
     if (router.query.language == undefined){
         return (<div>Carregando...</div>)
@@ -23,6 +22,9 @@ export default function Home() {
     return (
         <>
         <CssBaseline/>
+        <Head>
+            <title>Patrick Ferreira</title>
+        </Head>
         <Navbar content={HomePageContent.navbarModel}/>
         <Header content={HomePageContent.headerModel}/>
         <main>
