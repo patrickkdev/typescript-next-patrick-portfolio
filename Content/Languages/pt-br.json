@@ -10,7 +10,7 @@
     },
     "aboutMeModel": {
         "title": "Sobre mim",
-        "subtitle": "Eu sou um desenvolvedor fullstack com uma paixão por desenvolvimento de aplicativos para web, dispositivos móveis e desktop. Eu tenho boa fundação em tecnologias frontend como HTML, CSS, TypeScript e Dart, e também tenho experiência com linguagens de backend como Python e SQL.",
+        "subtitle": "Eu sou um desenvolvedor fullstack com uma paixão por desenvolvimento de aplicativos para web, dispositivos móveis e desktop. Eu tenho boa fundação em linguagens frontend como HTML, CSS, TypeScript e Dart, e linguagens de backend como Python e SQL.",
         "subtitle2": "",
         "features": [
             {
@@ -18,7 +18,7 @@
                 "subtitle": "",
                 "technology": {
                     "title": "Tecnologias que utilizo",
-                    "technologies": ["React.js", "Next.js", "React Native", "Flutter"]
+                    "technologies": ["React.js + Next.js", "React Native", "Flutter"]
                 }
             },
             {
@@ -26,7 +26,7 @@
                 "subtitle": "",
                 "technology": {
                     "title": "Tecnologias que utilizo",
-                    "technologies": ["Flask", "FastAPI", "MySQL"]
+                    "technologies": ["MySQL", "Flask", "Strapi"]
                 }
             }
         ]

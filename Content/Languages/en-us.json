@@ -11,14 +11,14 @@
     "aboutMeModel": {
         "title": "About me",
         "subtitle": "I am a fullstack developer with a passion for building web, desktop and mobile applications.",
-        "subtitle2": " I have a good foundation in frontend technologies such as HTML, CSS, TypeScript and Dart and I also have experience with backend languages such as Python and SQL.",
+        "subtitle2": " I have a good foundation in frontend technologies such as HTML, CSS, TypeScript and Dart, and backend languages such as Python and SQL.",
         "features": [
             {
                 "title": "Technologies I use on the frontend",
                 "subtitle": "",
                 "technology": {
                     "title": "Technologies I use",
-                    "technologies": ["React.js", "Next.js", "React Native", "Flutter"]
+                    "technologies": ["React.js + Next.js", "React Native", "Flutter"]
                 }
             },
             {
@@ -26,7 +26,7 @@
                 "subtitle": "",
                 "technology": {
                     "title": "Technologies I use",
-                    "technologies": ["Flask", "FastAPI", "MySQL"]
+                    "technologies": ["MySQL", "Flask", "Strapi"]
                 }
             }
         ]

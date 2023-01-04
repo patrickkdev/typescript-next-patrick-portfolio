@@ -1,6 +1,6 @@
 
-import JavascriptIcon from '@mui/icons-material/Javascript'
-import CssIcon from '@mui/icons-material/Css'
+import ViewQuiltIcon from '@mui/icons-material/ViewQuilt';
+import SettingsIcon from '@mui/icons-material/Settings';
 import { Card, Container, Grid } from '@mui/material'
 import { SxProps } from '@mui/system'
 import React, {CSSProperties} from 'react'
@@ -89,8 +89,8 @@ const AboutMeSection = ({content}:{content:AboutMeModel}) => {
                     <Grid item key={content.features.indexOf(feature)} padding={"6px"} sm={6} xs={12}>
                         <Card elevation={10} style = {featureColumnItemStyle}>
                             <div style={featureColumnItemIconStyle}> 
-                                {content.features.indexOf(feature) == 0 && <CssIcon style={{color: ColorPallete.darkColor, fontSize: "36px",}}/>}
-                                {content.features.indexOf(feature) == 1 && <JavascriptIcon style={{color: ColorPallete.darkColor, fontSize: "36px",}}/>}
+                                {content.features.indexOf(feature) == 0 && <ViewQuiltIcon style={{color: ColorPallete.darkColor, fontSize: "36px",}}/>}
+                                {content.features.indexOf(feature) == 1 && <SettingsIcon style={{color: ColorPallete.darkColor, fontSize: "36px",}}/>}
                              </div>
                             <h2 style={featureColumnItemH2Style}> {feature.title} </h2>
                             <h3 style={{...featureColumnItemH2Style, fontWeight: 400}}> {feature.subtitle} </h3>
