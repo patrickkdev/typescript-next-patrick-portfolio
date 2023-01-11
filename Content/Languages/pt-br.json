@@ -10,23 +10,24 @@
     },
     "aboutMeModel": {
         "title": "Sobre mim",
-        "subtitle": "Eu sou um desenvolvedor fullstack com uma paixão por desenvolvimento de aplicativos para web, dispositivos móveis e desktop. Eu tenho boa fundação em linguagens frontend como HTML, CSS, TypeScript e Dart, e linguagens de backend como Python e SQL.",
+        "subtitle": "Eu sou um desenvolvedor fullstack com um forte entusiasmo por desenvolvimento de aplicativos para web, dispositivos móveis e desktop. Eu tenho boa fundação em linguagens frontend como HTML, CSS, TypeScript e Dart, e linguagens de backend como Python e SQL.",
         "subtitle2": "",
         "features": [
             {
-                "title": "Tecnologias que utilizo no frontend",
-                "subtitle": "",
+                "title": "Principais tecnologias que utilizo no frontend",
+                "subtitle": "Também pussuo alguma experiência com",
                 "technology": {
-                    "title": "Tecnologias que utilizo",
-                    "technologies": ["React.js", "Next.js", "Flutter"]
+                    "title": "Technologies I use",
+                    "technologies": ["React.js (TypeScript)", "Next.js (TypeScript)", "Material UI"],
+                    "secondaryTech": ["React Native (TypeScript)", "Flutter (Dart)"]
                 }
             },
             {
-                "title": "Tecnologias que utilizo no backend",
-                "subtitle": "",
+                "title": "Principais tecnologias que utilizo no backend",
+                "subtitle": "Também pussuo alguma experiência com",
                 "technology": {
-                    "title": "Tecnologias que utilizo",
-                    "technologies": ["MySQL", "Flask", "Strapi"]
+                    "technologies": ["Node.js (TypeScript)", "Flask (Python)", "MySQL"],
+                    "secondaryTech": ["Express.js (TypeScript)", "FastAPI (Python)"]
                 }
             }
         ]
@@ -79,36 +80,42 @@
         "projects": [
             {
                 "imageUrl": "https://iili.io/HIpk8hX.png",
+                "tech": "Flutter",
                 "title": "Loja Online",
                 "subtitle": "Esta é uma loja on-line responsiva em andamento, construída com o Flutter. Ela fornece uma experiência de compra moderna com uma interface amigável para tornar sua experiência de compra online fácil e conveniente. Este site inclui uma barra de pesquisa para ajudá-lo a encontrar rapidamente os produtos que procura e um recurso de carrinho de compras onde os usuários podem adicionar itens ao pedido e visualizar o custo total. O site também possui integração com a API do Mercado Pago para processamento seguro e confiável de pagamentos. ",
                 "actionLink": "https://ecommerceuniversal.netlify.app"
             },
             {
                 "imageUrl": "https://iili.io/HIpkgBs.png",
+                "tech": "React.js + Next.js",
                 "title": "Website de delivery",
                 "subtitle": "Este é um site de entrega de comida responsivo feito com Next.js conectado a um back-end com um banco de dados MySQL. Ele permite que os usuários naveguem e peçam alimentos online. O site tem uma interface amigável com categorias para ajudar os usuários a encontrar os alimentos que procuram. O site também possui um recurso de carrinho de compras onde os usuários podem adicionar itens ao pedido e visualizar o custo total. O site também possui integração com a API do Mercado Pago para processamento seguro e confiável de pagamentos.",
                 "actionLink": "https://kimara.netlify.app"
             },
             {
                 "imageUrl": "https://iili.io/HIpvjne.png",
+                "tech": "React.js + Next.js",
                 "title": "Website 2Gain",
                 "subtitle": "Este é um site responsivo construído com Next.js para apresentar produtos digitais para traders de opções binárias. O conteúdo deste site está sendo obtido de um back-end construído com Python e MySQL para fornecer aos usuários as informações mais atualizadas sobre seus produtos. Neste site, você encontrará uma variedade de ferramentas e recursos para ajudar no complexo mundo da negociação de opções binárias. Seja um trader experiente ou iniciante, neste site existe algo para todos.",
                 "actionLink": "https://2gain.netlify.app"
             },
             {
                 "imageUrl": "https://iili.io/Hxaqcle.png",
+                "tech": ".NET, React Native",
                 "title": "2Gain Calculadora Financeira",
                 "subtitle": "Este é um aplicativo pago disponível para dispositivos Windows e Android e é construído usando o framwork React-Native com JavaScript e a linguagem de programação C#. O principal objetivo deste aplicativo é ajudar os usuários a gerenciar seu dinheiro de forma eficaz ao negociar opções binárias. Ele faz isso recomendando tamanhos de negociação com base no saldo disponível do usuário e sua tolerância de risco especificada. Para começar, basta inserir seu saldo disponível e especificar a tolerância ao risco.",
                 "actionLink": "https://2gain.netlify.app/product/1"
             },
             {
                 "imageUrl": "https://iili.io/Hxa2Wep.png",
+                "tech": "Python",
                 "title": "2Gain Robô Trader",
                 "subtitle": "Este programa pago é uma ferramenta de negociação para Windows feita com Python que analisa o mercado de opções binárias e executa negociações na plataforma IQ Option. Este programa possui um algoritmo projetado para fazer negociações lucrativas, mesmo após uma série de perdas, gerenciando estrategicamente o dinheiro investido de forma a permitir que se obtenha lucro com apenas duas negociações vencedoras consecutivas. O programa destina-se a ajudar os comerciantes a tomar decisões e potencialmente aumentar suas chances de sucesso no mercado.",
                 "actionLink": "https://2gain.netlify.app/product/3"
             },
             {
-                "imageUrl": "https://indicatorspot.com/wp-content/uploads/2022/08/Trend-Arrow-Indicator_1.png",
+                "imageUrl": "https://2gain.netlify.app/static/images/img-sinais.png",
+                "tech": "Flutter",
                 "title": "2Gain Signais",
                 "subtitle": "Este é um programa pago feito para Windows com o framework Flutter que usa Python para analisar o mercado com sua própria estratégia exclusiva e fornecer sinais alta precisão para negociação de opções binárias. O programa utiliza algoritmos e técnicas de análise de dados para analisar as tendências do mercado e identificar potenciais oportunidades de negociação usando sua própria estratégia proprietária. Em seguida, ele fornece sinais ao usuário, indicando se uma negociação específica provavelmente será bem-sucedida ou não com base nessa estratégia.",
                 "actionLink": "https://2gain.netlify.app/product/2"

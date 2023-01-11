@@ -12,6 +12,7 @@ export interface HeaderModel {
 export interface Technology {
     title: string;
     technologies: string[];
+    secondaryTech: string[];
 }
 
 export interface Feature {
@@ -42,6 +43,7 @@ export interface RecentWorkModel {
 
 export interface Project {
     imageUrl: string;
+    tech: string;
     title: string;
     subtitle: string;
     actionLink: string;

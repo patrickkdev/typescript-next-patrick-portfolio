@@ -43,9 +43,10 @@ const FeaturedProjectsSection = ({content}:{content: StartUpProjectsModel}) => {
                 <Grid container>
                    {content.projects.map(project => {return (
                         <Grid item key={content.projects.indexOf(project)} padding={"6px"} md={4} sm={6} xs={12}>
-                            <Card elevation={10} style = {{height: "100%", color: "white", padding: "18px", borderRadius: 15, overflow: "hidden", backgroundColor:ColorPallete.secondaryColor, display:"flex", flexDirection:"column", justifyContent:"space-between"}}>
+                            <Card elevation={10} style = {{height: "100%", color: "white", padding: "18px", borderRadius: 15, overflow: "hidden", backgroundColor: ColorPallete.secondaryColor, display:"flex", flexDirection:"column", justifyContent:"space-between"}}>
                                 <img src={project.imageUrl} style={{width: "100%", height: "auto", marginBottom: "24px", borderRadius: 15}}/>
-                                <h4 style={{marginBottom: "24px"}}>{project.title}</h4>
+                                <h4 style={{marginBottom: "12px"}}>{project.title}</h4>
+                                <h5 style={{marginBottom: "24px"}}>{project.tech}</h5>
                                 <h5 style={{marginBottom: "24px"}}>{project.subtitle}</h5>
                                 <Button variant="outlined" onClick={() => window.open(project.actionLink, '_blank')} color="inherit" sx={{ borderRadius: 15}}> {/*  > */}
                                     Visit Page

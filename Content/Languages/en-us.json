@@ -14,19 +14,20 @@
         "subtitle2": " I have a good foundation in frontend technologies such as HTML, CSS, TypeScript and Dart, and backend languages such as Python and SQL.",
         "features": [
             {
-                "title": "Technologies I use on the frontend",
-                "subtitle": "",
+                "title": "Main technologies I'm using on the frontend",
+                "subtitle": "I also have some experience with",
                 "technology": {
                     "title": "Technologies I use",
-                    "technologies": ["React.js", "Next.js", "Flutter"]
+                    "technologies": ["React.js (TypeScript)", "Next.js (TypeScript)", "Material UI"],
+                    "secondaryTech": ["React Native (TypeScript)", "Flutter (Dart)"]
                 }
             },
             {
-                "title": "Technologies I use on the backend",
-                "subtitle": "",
+                "title": "Main technologies I'm using on the backend",
+                "subtitle": "I also have some experience with",
                 "technology": {
-                    "title": "Technologies I use",
-                    "technologies": ["MySQL", "Flask", "Strapi"]
+                    "technologies": ["Node.js (TypeScript)", "Flask (Python)", "MySQL"],
+                    "secondaryTech": ["Express.js (TypeScript)", "FastAPI (Python)"]
                 }
             }
         ]

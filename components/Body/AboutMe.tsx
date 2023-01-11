@@ -93,11 +93,14 @@ const AboutMeSection = ({content}:{content:AboutMeModel}) => {
                                 {content.features.indexOf(feature) == 1 && <SettingsIcon style={{color: ColorPallete.darkColor, fontSize: "36px",}}/>}
                              </div>
                             <h2 style={featureColumnItemH2Style}> {feature.title} </h2>
-                            <h3 style={{...featureColumnItemH2Style, fontWeight: 400}}> {feature.subtitle} </h3>
+                                {feature.technology.technologies?.map(technology => {return(
+                                    <h3 key={feature.technology.technologies.indexOf(technology)} style={{...featureColumnItemH2Style, fontWeight: 400, marginBottom: "0px"}}> {technology} </h3>    
+                                    )})}
 
-                            {feature.technology.technologies?.map(technology => {return(
-                                <h3 key={feature.technology.technologies.indexOf(technology)} style={{...featureColumnItemH2Style, fontWeight: 400, margin: "0px"}}> {technology} </h3>    
-                            )})}
+                            <h2 style={{...featureColumnItemH2Style, marginTop: "24px"}}> {feature.subtitle} </h2>
+                                {feature.technology.secondaryTech?.map(technology => {return(
+                                    <h3 key={feature.technology.technologies.indexOf(technology)} style={{...featureColumnItemH2Style, fontWeight: 400, marginBottom: "0px"}}> {technology} </h3>    
+                                    )})}
                             
                         </Card>
                     </Grid>
