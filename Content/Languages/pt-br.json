@@ -26,8 +26,8 @@
                 "title": "Principais tecnologias que utilizo no backend",
                 "subtitle": "Também pussuo alguma experiência com",
                 "technology": {
-                    "technologies": ["Node.js (TypeScript)", "Flask (Python)", "MySQL"],
-                    "secondaryTech": ["Express.js (TypeScript)", "FastAPI (Python)"]
+                    "technologies": ["Node.js (TypeScript)", "Express.js (TypeScript)", "MySQL"],
+                    "secondaryTech": ["Flask (Python)", "FastAPI (Python)"]
                 }
             }
         ]
