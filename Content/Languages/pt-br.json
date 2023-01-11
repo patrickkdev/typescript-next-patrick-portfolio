@@ -18,7 +18,7 @@
                 "subtitle": "",
                 "technology": {
                     "title": "Tecnologias que utilizo",
-                    "technologies": ["React.js + Next.js", "React Native", "Flutter"]
+                    "technologies": ["React.js", "Next.js", "Flutter"]
                 }
             },
             {
