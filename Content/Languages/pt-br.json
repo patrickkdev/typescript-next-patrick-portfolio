@@ -88,7 +88,7 @@
             {
                 "imageUrl": "https://iili.io/HIpk8hX.png",
                 "tech": "Flutter",
-                "title": "Loja Online",
+                "title": "Loja Online - Em Progresso",
                 "subtitle": "Esta é uma loja on-line responsiva em andamento, construída com o Flutter. Ela fornece uma experiência de compra moderna com uma interface amigável para tornar sua experiência de compra online fácil e conveniente. Este site inclui uma barra de pesquisa para ajudá-lo a encontrar rapidamente os produtos que procura e um recurso de carrinho de compras onde os usuários podem adicionar itens ao pedido e visualizar o custo total. O site também possui integração com a API do Mercado Pago para processamento seguro e confiável de pagamentos. ",
                 "actionLink": "https://ecommerceuniversal.netlify.app"
             },

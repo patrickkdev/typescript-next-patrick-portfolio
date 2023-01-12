@@ -12,7 +12,7 @@ const AboutMeSection = ({content}:{content:AboutMeModel}) => {
     const headerStyle : CSSProperties = {
         padding: "24px",
         paddingTop: "96px",
-        paddingBottom: "180px",
+        paddingBottom: "214px",
         backgroundColor: ColorPallete.secondaryColor,
         display: "flex",
         justifyContent: "center",
@@ -30,7 +30,7 @@ const AboutMeSection = ({content}:{content:AboutMeModel}) => {
     const featureSectionStyle: CSSProperties = {
         display: "flex",
         //padding: "24px",
-        marginTop: "-160px",
+        marginTop: "-200px",
         borderRadius: "15px",
     }
     

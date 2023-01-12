@@ -88,7 +88,7 @@
             {
                 "imageUrl": "https://iili.io/HIpk8hX.png",
                 "tech": "Flutter",
-                "title": "Online Store",
+                "title": "Online Store - WIP",
                 "subtitle": "This is a work in progress responsive online store built with Flutter. This website provides a modern shopping experience with a user-friendly interface to make your online shopping experience easy and convenient. This website includes a search bar to help you quickly find the products you're looking for and a shopping cart feature where users can add items to their order and view the total cost. The website also has integration with the Mercado Pago API for secure and reliable payment processing. ",
                 "actionLink": "https://ecommerceuniversal.netlify.app"
             },
