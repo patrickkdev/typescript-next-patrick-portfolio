@@ -12,7 +12,7 @@ const AboutMeSection = ({content}:{content:AboutMeModel}) => {
     const headerStyle : CSSProperties = {
         padding: "24px",
         paddingTop: "96px",
-        paddingBottom: "214px",
+        paddingBottom: "144px",
         backgroundColor: ColorPallete.secondaryColor,
         display: "flex",
         justifyContent: "center",
@@ -30,7 +30,7 @@ const AboutMeSection = ({content}:{content:AboutMeModel}) => {
     const featureSectionStyle: CSSProperties = {
         display: "flex",
         //padding: "24px",
-        marginTop: "-200px",
+        marginTop: "-140px",
         borderRadius: "15px",
     }
     
@@ -75,7 +75,7 @@ const AboutMeSection = ({content}:{content:AboutMeModel}) => {
         <div style={headerStyle}>
             <Container maxWidth="md">
                 <h1 style={headerTextStyle}>{content.title}</h1>
-                <h2 style={{...headerTextStyle, opacity: "0.9", fontWeight: 100, fontSize: "20px", marginBottom:"0px"}}>
+                <h2 style={{...headerTextStyle, opacity: "0.9", fontWeight: 100, fontSize: "19px", marginBottom:"0px"}}>
                     {content.subtitle}
                 </h2>
                 <h2 style={{...headerTextStyle, opacity: "0.9", fontWeight: 100, fontSize: "20px", marginBottom:"48px"}}>
@@ -95,13 +95,6 @@ const AboutMeSection = ({content}:{content:AboutMeModel}) => {
                              <div>
                                 <h2 style={featureColumnItemH2Style}> {feature.title} </h2>
                                     {feature.technology.technologies?.map(technology => {return(
-                                        <h3 key={feature.technology.technologies.indexOf(technology)} style={{...featureColumnItemH2Style, fontWeight: 400, marginBottom: "0px"}}> {technology} </h3>    
-                                        )})}
-                            </div>
-
-                            <div>
-                                <h2 style={{...featureColumnItemH2Style, marginTop: "24px"}}> {feature.subtitle} </h2>
-                                    {feature.technology.secondaryTech?.map(technology => {return(
                                         <h3 key={feature.technology.technologies.indexOf(technology)} style={{...featureColumnItemH2Style, fontWeight: 400, marginBottom: "0px"}}> {technology} </h3>    
                                         )})}
                             </div>

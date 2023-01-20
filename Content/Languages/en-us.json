@@ -18,16 +18,16 @@
                 "subtitle": "I also have some experience with",
                 "technology": {
                     "title": "Technologies I use",
-                    "technologies": ["React.js (TypeScript)", "Next.js (TypeScript)"],
-                    "secondaryTech": ["React Native (TypeScript)", "Flutter (Dart)"]
+                    "technologies": ["React.js (TypeScript)", "Next.js (TypeScript)", "React Native (TypeScript)"],
+                    "secondaryTech": []
                 }
             },
             {
                 "title": "Main technologies I'm using on the backend",
                 "subtitle": "I also have some experience with",
                 "technology": {
-                    "technologies": ["Flask (Python)", "MySQL"],
-                    "secondaryTech": ["Node.js (TypeScript)", "Express.js (TypeScript)"]
+                    "technologies": ["MySQL", "Flask (Python)", "Express.js (TypeScript)"],
+                    "secondaryTech": []
                 }
             }
         ]

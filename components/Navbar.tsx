@@ -57,7 +57,7 @@ const Navbar = ({content}:{content: NavbarModel}) => {
               <Button variant="contained" size='large' sx={contactButtonStyle}> {content.contactButton} </Button>
             </a>
             
-            <Link href = 'documents/Curriculo.pdf' target='_blank'>
+            <Link href = 'documents/CV - Patrick Ferreira.pdf' target='_blank'>
               <Button size='large' sx={curriculumButtonStyle}> {content.resume} </Button>
             </Link> 
 

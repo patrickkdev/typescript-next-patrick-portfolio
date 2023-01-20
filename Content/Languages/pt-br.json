@@ -10,7 +10,7 @@
     },
     "aboutMeModel": {
         "title": "Sobre mim",
-        "subtitle": "Sou um desenvolvedor full-stack com 23 anos de idade, com habilidades em desenvolvimento de aplicativos para web, dispositivos móveis e desktop. Possuo conhecimento em linguagens front-end como HTML, CSS, TypeScript, tecnologias React.js, Next.js, React Native e linguagens de back-end como Python e TypeScript e tecnologias Flask e MySQL.",
+        "subtitle": "Sou desenvolvedor full-stack com 23 anos de idade, com habilidades em desenvolvimento de software para web, dispositivos móveis e desktop. Possuo conhecimento em linguagens front-end como HTML, CSS, TypeScript e tecnologias como React.js, Next.js e React Native, bem como em linguagens de back-end como Python e TypeScript e tecnologias como Flask e MySQL.",
         "subtitle2": "",
         "features": [
             {
@@ -18,16 +18,16 @@
                 "subtitle": "Também possuo alguma experiência com",
                 "technology": {
                     "title": "Technologies I use",
-                    "technologies": ["React.js (TypeScript)", "Next.js (TypeScript)"],
-                    "secondaryTech": ["React Native (TypeScript)", "Flutter (Dart)"]
+                    "technologies": ["React.js", "Next.js", "React Native"],
+                    "secondaryTech": []
                 }
             },
             {
                 "title": "Principais tecnologias que utilizo no backend",
                 "subtitle": "Também possuo alguma experiência com",
                 "technology": {
-                    "technologies": ["Flask (Python)", "MySQL"],
-                    "secondaryTech": ["Node.js (TypeScript)", "Express.js (TypeScript)"]
+                    "technologies": ["MySQL", "Flask (Python)", "Express.js"],
+                    "secondaryTech": []
                 }
             }
         ]
