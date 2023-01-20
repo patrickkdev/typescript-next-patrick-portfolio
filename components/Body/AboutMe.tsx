@@ -75,7 +75,7 @@ const AboutMeSection = ({content}:{content:AboutMeModel}) => {
         <div style={headerStyle}>
             <Container maxWidth="md">
                 <h1 style={headerTextStyle}>{content.title}</h1>
-                <h2 style={{...headerTextStyle, opacity: "0.9", fontWeight: 100, fontSize: "19px", marginBottom:"0px"}}>
+                <h2 style={{...headerTextStyle, opacity: "0.9", fontWeight: 100, fontSize: "24px", marginBottom:"0px"}}>
                     {content.subtitle}
                 </h2>
                 <h2 style={{...headerTextStyle, opacity: "0.9", fontWeight: 100, fontSize: "20px", marginBottom:"48px"}}>
