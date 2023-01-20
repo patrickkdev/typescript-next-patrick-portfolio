@@ -10,7 +10,7 @@
     },
     "aboutMeModel": {
         "title": "Sobre mim",
-        "subtitle": "Eu sou um desenvolvedor fullstack com um forte entusiasmo por desenvolvimento de aplicativos para web, dispositivos móveis e desktop. Eu tenho boa fundação em linguagens frontend como HTML, CSS, TypeScript e Dart, e linguagens de backend como Python e SQL.",
+        "subtitle": "Sou um desenvolvedor full-stack com 23 anos de idade, com habilidades em desenvolvimento de aplicativos para web, dispositivos móveis e desktop. Possuo conhecimento em linguagens front-end como HTML, CSS, TypeScript, tecnologias React.js, Next.js, React Native e linguagens de back-end como Python e TypeScript e tecnologias Flask e MySQL.",
         "subtitle2": "",
         "features": [
             {
@@ -86,13 +86,6 @@
                 "actionLink": "https://kimara.netlify.app"
             },
             {
-                "imageUrl": "https://iili.io/HIpk8hX.png",
-                "tech": "Flutter",
-                "title": "Loja Online - Em Progresso",
-                "subtitle": "Esta é uma loja on-line responsiva em andamento, construída com o Flutter. Ela fornece uma experiência de compra moderna com uma interface amigável para tornar sua experiência de compra online fácil e conveniente. Este site inclui uma barra de pesquisa para ajudá-lo a encontrar rapidamente os produtos que procura e um recurso de carrinho de compras onde os usuários podem adicionar itens ao pedido e visualizar o custo total. O site também possui integração com a API do Mercado Pago para processamento seguro e confiável de pagamentos. ",
-                "actionLink": "https://ecommerceuniversal.netlify.app"
-            },
-            {
                 "imageUrl": "https://iili.io/HIpvjne.png",
                 "tech": "React.js + Next.js",
                 "title": "Website 2Gain",
@@ -112,13 +105,6 @@
                 "title": "2Gain Robô Trader",
                 "subtitle": "Este programa pago é uma ferramenta de negociação para Windows feita com Python que analisa o mercado de opções binárias e executa negociações na plataforma IQ Option. Este programa possui um algoritmo projetado para fazer negociações lucrativas, mesmo após uma série de perdas, gerenciando estrategicamente o dinheiro investido de forma a permitir que se obtenha lucro com apenas duas negociações vencedoras consecutivas. O programa destina-se a ajudar os comerciantes a tomar decisões e potencialmente aumentar suas chances de sucesso no mercado.",
                 "actionLink": "https://2gain.netlify.app/product/3"
-            },
-            {
-                "imageUrl": "https://2gain.netlify.app/static/images/img-sinais.png",
-                "tech": "Flutter",
-                "title": "2Gain Signais",
-                "subtitle": "Este é um programa pago feito para Windows com o framework Flutter que usa Python para analisar o mercado com sua própria estratégia exclusiva e fornecer sinais alta precisão para negociação de opções binárias. O programa utiliza algoritmos e técnicas de análise de dados para analisar as tendências do mercado e identificar potenciais oportunidades de negociação usando sua própria estratégia proprietária. Em seguida, ele fornece sinais ao usuário, indicando se uma negociação específica provavelmente será bem-sucedida ou não com base nessa estratégia.",
-                "actionLink": "https://2gain.netlify.app/product/2"
             }
         ]
     },

@@ -1,0 +1,30 @@
+[
+    {
+        "imageUrl": "https://iili.io/HIpk8hX.png",
+        "tech": "Flutter",
+        "title": "Loja Online - Em Progresso",
+        "subtitle": "Esta é uma loja on-line responsiva em andamento, construída com o Flutter. Ela fornece uma experiência de compra moderna com uma interface amigável para tornar sua experiência de compra online fácil e conveniente. Este site inclui uma barra de pesquisa para ajudá-lo a encontrar rapidamente os produtos que procura e um recurso de carrinho de compras onde os usuários podem adicionar itens ao pedido e visualizar o custo total. O site também possui integração com a API do Mercado Pago para processamento seguro e confiável de pagamentos. ",
+        "actionLink": "https://ecommerceuniversal.netlify.app"
+    },
+    {
+        "imageUrl": "https://2gain.netlify.app/static/images/img-sinais.png",
+        "tech": "Flutter",
+        "title": "2Gain Signais",
+        "subtitle": "Este é um programa pago feito para Windows com o framework Flutter que usa Python para analisar o mercado com sua própria estratégia exclusiva e fornecer sinais alta precisão para negociação de opções binárias. O programa utiliza algoritmos e técnicas de análise de dados para analisar as tendências do mercado e identificar potenciais oportunidades de negociação usando sua própria estratégia proprietária. Em seguida, ele fornece sinais ao usuário, indicando se uma negociação específica provavelmente será bem-sucedida ou não com base nessa estratégia.",
+        "actionLink": "https://2gain.netlify.app/product/2"
+    },
+    {
+        "imageUrl": "https://2gain.netlify.app/static/images/img-sinais.png",
+        "tech": "Flutter",
+        "title": "2Gain Signals",
+        "subtitle": "This is a paid Windows program made with the Flutter framework that uses Python to analyze the market with its own unique strategy and provide high accuracy signals for binary option traders. The program utilizes algorithms and data analysis techniques to analyze market trends and identify potential trading opportunities using its own proprietary strategy. It then provides signals to the user, indicating whether a particular trade is likely to be successful or not based on this strategy.",
+        "actionLink": "https://2gain.netlify.app/product/2"
+    },
+    {
+        "imageUrl": "https://iili.io/HIpk8hX.png",
+        "tech": "Flutter",
+        "title": "Online Store - WIP",
+        "subtitle": "This is a work in progress responsive online store built with Flutter. This website provides a modern shopping experience with a user-friendly interface to make your online shopping experience easy and convenient. This website includes a search bar to help you quickly find the products you're looking for and a shopping cart feature where users can add items to their order and view the total cost. The website also has integration with the Mercado Pago API for secure and reliable payment processing. ",
+        "actionLink": "https://ecommerceuniversal.netlify.app"
+    }
+]
