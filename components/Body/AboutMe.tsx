@@ -67,7 +67,7 @@ const AboutMeSection = ({content}:{content:AboutMeModel}) => {
         marginBottom: "12px",
         justifyContent: "center",
         color: ColorPallete.primaryColor,
-        fontSize: "20px"
+        fontSize: "24px"
     }
   return (
     <div style={{backgroundColor: "white"}}>
@@ -95,7 +95,7 @@ const AboutMeSection = ({content}:{content:AboutMeModel}) => {
                              <div>
                                 <h2 style={featureColumnItemH2Style}> {feature.title} </h2>
                                     {feature.technology.technologies?.map(technology => {return(
-                                        <h3 key={feature.technology.technologies.indexOf(technology)} style={{...featureColumnItemH2Style, fontWeight: 400, marginBottom: "0px"}}> {technology} </h3>    
+                                        <h3 key={feature.technology.technologies.indexOf(technology)} style={{...featureColumnItemH2Style, opacity: 0.9, fontWeight: 400, marginBottom: "0px"}}> {technology} </h3>    
                                         )})}
                             </div>
                             
