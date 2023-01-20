@@ -34,7 +34,7 @@ const FeaturedProjectsSection = ({content}:{content: StartUpProjectsModel}) => {
         <div style={headerStyle}>
             <Container maxWidth="md">
                 <h1 style={headerTextStyle}>{content.title}</h1>
-                <h2 style={{...headerTextStyle, opacity: "0.9", fontWeight: 400, fontSize: "24px"}}>
+                <h2 style={{...headerTextStyle, opacity: "0.9", fontWeight: 400, fontSize: "18px"}}>
                     {content.subtitle}
                 </h2>
             </Container>
